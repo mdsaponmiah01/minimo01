@@ -1,0 +1,207 @@
+`/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+body{
+	font-family:'Playfair Display';
+	font-weight:400;
+	font-size:16px;
+	color:#626262;
+}
+header{
+	background-color:#FFF;
+	padding:20px 0;
+}
+.wrapper{
+	width:90%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.logo{
+	width:20%;
+	padding:10px 0;
+	margin-top:5px;
+	float:left;
+}
+.logo img{
+	width:100%;
+}
+.menu{
+	width:75%;
+	float:right;
+	overflow:hidden;
+	margin-top:15px;
+	margin-bottom:5px;
+	
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	float:left;
+	list-style:none;
+}
+.menu ul li a{
+	font-weight:400;
+	font-size:14px;
+	color:#626262;
+	text-transform:uppercase;
+	transition:.5s;
+	text-decoration:none;
+	padding:0 60px;
+	display:block;
+}
+.menu ul li:last-child a{
+	padding-right:0;
+}
+.menu ul li a:hover{
+	color:#000000;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding:20px 0;
+}
+.banner img{
+	width:100%;
+}
+/*banner end*/
+
+.blog{
+	padding:30px 0;
+}
+.main_blog{
+	margin-left:70px;
+}
+.photodairy, .comment, leave_comment p{
+	color:#C7C1B6;
+	text-transform:uppercase;
+}
+.comment p{
+	padding-top:40px;
+}
+.blog_header{}
+.blog_header h1{
+	font-size:30px;
+	color:#626262;
+}
+.blog_header p{
+	color:#626262;
+}
+
+
+
+
+
+
+/*newsletter start*/
+.newsletter{
+	padding:50px 0;
+	background-color: #f0f0f0;
+}
+.container{
+	width:60%;
+	margin:0 auto;
+}
+.signup{
+	text-align:center;
+}
+.signup h1{
+	font-size:30px;
+	margin-bottom:100px;
+}
+.for_form{
+	width:350px;
+	margin:0 auto;
+	left:0;
+	right:0;
+	position:relative;
+}
+.for_form button{
+	border: none;
+	background: transparent;
+	position:absolute;
+	top:10px;
+	right:0px;
+}
+.for_form input{
+	border:none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width:290px;
+	font-size:18px;
+	padding:10px 50px 10px 10px;
+	outline:none;
+}
+/*newsletter end*/
+
+
+/*gelary star*/
+.gellary{}
+.single{
+	width:40%;
+	float:left;
+	margin-left:70px;
+	margin-top:30px;
+	margin-bottom:50px;
+}
+.single img{
+	width:100%;
+}
+.single p{
+	color:#C7C1B6;
+	padding:20px 0;
+}
+.single h1{
+	font-size:30px;
+	color:#626262;
+	padding:10px 0;
+}
+.gellary button{
+	width:250px;
+	font-family:'Playfair Display';
+	font-weight:400;
+	font-size:24px;
+	color:#626262;
+	margin-top:80px;
+	margin-bottom:180px;
+	margin-left:500px;
+	margin-right:500px;
+	padding:5px 40px;
+	text-align:center;
+}
+/*gelary end*/
+
+
+
+
+/*footer start*/
+.footer{
+	padding:50px 0;
+	background-color:#ddd;
+}
+.footer_wrapper{
+	overflow:hidden;
+	width:90%;
+	margin:0 auto;
+}
+.footer_wrapper p{
+	float:left;
+	font-size:20px;
+	color:#000000;
+}
+.footer_link{
+	float:right;
+	margin-right:70px;
+}
+.footer_link a{
+	text-decoration:none;
+	color:#000000;
+	padding-right:10px;
+	background:transparent;
+}
+.footer_link:first-child a{
+	color:#000000;
+	text-decoration:none;
+}
+/*footer end*/
